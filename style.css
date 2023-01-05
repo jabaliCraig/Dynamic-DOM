@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+#save {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #c1e1c1;
+}
+
+.remover > button {
+    background-color: #ffcccb;
+}
+
+#list-container {
+    width: 100%;
+    background-color: rgb(234, 238, 238);
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
